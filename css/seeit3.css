@@ -1,0 +1,345 @@
+svg {
+  border:1px solid;
+}
+
+body {
+	font: bold 14px arial;
+}
+
+.button{
+	border: 2px solid #000000;
+	background: #dddddd;
+	font : bold 14px arial;
+	cursor: pointer;
+}
+
+.textbox {
+	border: 2px solid #000000;
+	font : bold 14px arial;
+}
+
+.radio {
+	border: 2px solid #000000;
+	background: #ffffff;
+}
+
+.checkbox{
+	background: #ffffff;
+}
+
+#ellipseSliders {
+  float:right;
+  display:none;
+  padding-left:15px;
+}
+
+#newSpreadsheetURL {
+  width:200px;
+}
+
+
+table#menuItems {
+  /*width:100%;*/
+  margin-bottom:10px;
+}
+
+table#menuItems h3 {
+  margin-top:0;
+  margin-bottom:2px;
+}
+
+p#loadingMsg {
+	position:absolute;
+	left: 50%;
+	top: 50%;
+}
+
+#groupingOptions {
+	background: #ffffff;
+	border:1px solid black;
+	padding: 10px;
+	display: hidden;
+}
+
+#datasets {
+	position: fixed;
+	background: #ffffff;
+	border:1px solid black;
+	padding: 10px;
+	display: hidden;
+	overflow-y: auto;
+	max-height: 90%;
+	max-width: 30%;
+	overflow:auto;
+}
+
+#worksheetMenu {
+	position: absolute;
+	background: #ffffff;
+	border:1px solid black;
+	padding: 10px;
+	display: hidden;
+	height:90%;
+	width:75%;
+	overflow-x: hidden;
+	-ms-overflow-x: hidden;
+	overflow:hidden;
+}
+
+#confidenceIntervalMenu {
+	position: absolute;
+	background: #ffffff;
+	border:1px solid black;
+	padding: 10px;
+	display: hidden;
+	height:90%;
+	width:75%;
+	overflow-x: hidden;
+	-ms-overflow-x: hidden;
+	overflow:hidden;
+}
+
+#worksheetText{
+	width:100%;
+	height:75%;
+}
+
+#resamplingCopy {
+	position: absolute;
+	background: #ffffff;
+	border:1px solid black;
+	padding: 10px;
+	display: none;
+	height:90%;
+	width:75%;
+	overflow-x: hidden;
+	-ms-overflow-x: hidden;
+	overflow:hidden;
+}
+
+#resamplingText{
+	width:100%;
+	height:75%;
+}
+
+
+
+#worksheetURLMenu{
+	position: absolute;
+	background: #ffffff;
+	border:1px solid black;
+	padding: 10px;
+	display: hidden;
+	overflow-x: hidden;
+	-ms-overflow-x: hidden;
+	overflow:hidden;
+}
+
+.menuItemDef {
+	position: relative;
+	padding: 1px;
+	border: 2px transparent solid;
+	cursor: move;
+	margin-bottom:1px;
+}
+
+.menuItemOver {
+	position: relative;
+	padding: 1px;
+	border: 2px #000000 solid;
+	cursor: move;
+	margin-bottom:1px;
+}
+
+.axisDef {
+	position: relative;
+	padding: 1px;
+	background: rgba(255,255,255,0.0);
+	cursor: move;
+	margin-bottom:1px;
+	overflow:hidden;
+	border: 1px #666666 dashed;
+}
+
+.axisOver {
+	position: relative;
+	padding: 1px;
+	background: rgba(100,100,100,0.5); 
+	cursor: move;
+	margin-bottom:1px;
+	overflow:hidden;
+	border: 1px #666666 solid;
+}
+
+.menuItemSel {
+	position: relative;
+	padding: 1px;
+	border: 2px #ff0000 solid;
+	cursor: move;
+	margin-bottom:1px;
+}
+
+.populationLabels {
+	position: absolute;
+	padding: 1px;
+	border: 2px transparent solid;
+	cursor: move;
+	margin-bottom:1px;
+}
+
+.populationLabelsHilight {
+	position: absolute;
+	padding: 1px;
+	border: 2px #000000 solid;
+	cursor: move;
+	margin-bottom:1px;
+}
+
+#displayOptions {
+	background: #ffffff;
+	border:1px solid black;
+	padding: 5px;
+	display: hidden;
+}
+
+#graphOptions {
+	background: #ffffff;
+	border:1px solid black;
+	padding: 10px;
+	display: hidden;
+}
+
+#dataSetAdd {
+	background: #ffffff;
+	border:1px solid black;
+	padding: 5px;
+	max-height: 75%;
+  overflow:scroll;
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  display: hidden;
+  overflow-y: hidden;
+  -ms-overflow-y: hidden;
+}
+
+#dataSetEdit {
+	background: #ffffff;
+	border:1px solid black;
+	padding: 5px;
+	max-height: 75%;
+  overflow:scroll;
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  display: hidden;
+  overflow-y: hidden;
+  -ms-overflow-y: hidden;
+}
+
+#clipboardPrompt {
+	background: #ffffff;
+	border:1px solid black;
+	padding: 5px;
+	max-height: 400px;
+  overflow:scroll;
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  overflow-y: hidden;
+  -ms-overflow-y: hidden;
+  display: hidden;
+}
+
+#dataSetEntry {
+	border-collapse: collapse; 
+}
+
+#worksheetCreate {
+	background: #ffffff;
+	border:1px solid black;
+	padding: 5px;
+	width: 250px;
+	max-height: 75%;
+  overflow:scroll;
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  display: hidden;
+  overflow-y: hidden;
+  -ms-overflow-y: hidden;
+}
+
+#aboutPopup {
+	background: #ffffff;
+	border:1px solid black;
+	padding: 5px;
+	width: 400px;
+	max-height: 400px;
+  overflow:scroll;
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  display: hidden;
+  overflow-y: hidden;
+  -ms-overflow-y: hidden;
+}
+
+#addPasteText{
+	resize: none;
+}
+
+#dataSetPaste{
+	background: #ffffff;
+	border:1px solid black;
+	padding: 5px;
+	max-height: 400px;
+  overflow:scroll;
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  display: hidden;
+  overflow-y: hidden;
+  -ms-overflow-y: hidden;
+}
+
+#worksheetDescriptionPopup {
+	background: #ffffff;
+	border:1px solid black;
+	padding: 5px;
+	max-height: 400px;
+  overflow:scroll;
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  display: hidden;
+  overflow-y: hidden;
+  -ms-overflow-y: hidden;
+}
+
+div.legend {
+	position:absolute;
+	overflow-x:hidden;
+	top:0px;
+	left:0px;
+}
+
+div.sampleOptions {
+	position:absolute;
+	overflow-x:hidden;
+	top:0px;
+	left:0px;
+}
+
+div.resampleOptions {
+	position:absolute;
+	overflow-x:hidden;
+	top:0px;
+	left:0px;
+}
+
+div.confOptions {
+	position:absolute;
+	overflow-x:hidden;
+	top:0px;
+	left:0px;
+}
+
+#ieWarning {
+	font:bold 30px arial
+}
+
+
