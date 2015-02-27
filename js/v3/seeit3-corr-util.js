@@ -34,7 +34,7 @@ function getRelativeImageURL(){
 			done = false;
 			
 	document.URL.split("/").forEach(function(part){
-		if (part == "SeeIt3"){
+		if (part == "seeit.ucdavis.edu"){
 			done = true;
 			url += part + "/";
 		}	
