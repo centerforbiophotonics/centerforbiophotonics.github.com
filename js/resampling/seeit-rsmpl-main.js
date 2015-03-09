@@ -1969,7 +1969,7 @@ function constructDoubleGraph(graphPanel,graph,index){
 			.text("Warning! Data points lie outside graph boundaries.")
 			.textStyle("red")
 			.font(fontString)
-			.top(35)
+			.top(50)
 			.left(function(){return graph.w/2})
 			.textAlign("center")
 			.visible(function(){
@@ -2041,7 +2041,7 @@ function constructDoubleGraph(graphPanel,graph,index){
 			.data(function() {return graph.secondGraph.getDataDrawObjects()})
 			.visible(function(d) {
 				return $('#checkboxHideData').attr('checked') != "checked"  && 
-					(d.y+graph.secondGraph.baseLine) < graph.secondGraph.h &&
+					(d.y+graph.baseLine) < graph.h &&//d.y+graph.secondGraph.baseLine) < graph.secondGraph.h &&
 					d.x >= 0 &&
 					d.x <= graph.secondGraph.w &&
 					!graphCollection.lineMode;
@@ -2119,7 +2119,7 @@ function constructDoubleGraph(graphPanel,graph,index){
 			.text("Warning! Data points lie outside graph boundaries.")
 			.textStyle("red")
 			.font(fontString)
-			.top(35)
+			.top(50)
 			.left(function(){return graph.secondGraphw/2})
 			.textAlign("center")
 			.visible(function(){
